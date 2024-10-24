@@ -1,3 +1,99 @@
+:root {
+  --color-bg: #dfdfdf;
+  --color-border: #ffffff;
+  --color-font-primary: rgb(34,34,34);
+  --color-font-secundary: rgb(73,73,73);
+  --font-primary: "Raleway", sans-serif;
+  --font-secundary: "PT Sans Narrow", sans-serif;
+}
+
 body {
-  background-color: red;
+  margin: auto;
+  background: var(--color-bg);
+  color: var(--color-font-primary);
+  font-family: var(--font-primary);
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.foto-principal {
+  border-radius: 25% 8%;
+  border: 2px solid var(--color-border); /* shorthand */
+  width: 200px;
+  box-shadow: 0 0 10px #959595;
+  margin: 30px 30px 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: var(--font-secundary);
+}
+
+h2 {
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 100;
+  color: var(--color-font-secundary);
+  letter-spacing: -1px;
+}
+
+.fa-brands {
+  font-size: 24px;
+  color: black;
+}
+
+.fa-instagram {
+  margin: 0 15px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin-right: 32px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 0;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.jobs-lists {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.jobs-lists h5 {
+  margin-bottom: 0;
+}
+
+.jobs-lists p{
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background: black;
+  color: white;
+  font-size: 10px;
 }

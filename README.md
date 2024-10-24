@@ -11,5 +11,6 @@ Esse projeto apesar de bastante simples, é possível visualizar técnicas de pr
 * imagens
 * links
 * listas
+  
 A ferramenta Dev Tools foi utilizada para auxiliar na disposição de elementos dentro do projeto.
 A paleta de cores alterna entre tons cinzas e escuros, preto e branco. 
